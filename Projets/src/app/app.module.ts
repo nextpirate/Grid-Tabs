@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DxButtonModule } from 'devextreme-angular';
-import { ParentServiceService } from 'projects/revision/src/app/parent-component/parent-service.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { ParentServiceService } from 'projects/revision/src/app/parent-component
     AppRoutingModule,
     DxButtonModule
   ],
-  providers: [ParentServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
